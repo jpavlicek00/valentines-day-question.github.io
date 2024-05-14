@@ -22,13 +22,13 @@ body {
 
 @media only screen and (max-width: 1200px) {
     body {
-        height: 90vh;
+        height: 70vh;
     }
     .header-text {
         font-size: 2em;
     }
     .gif_container {
-        height: 70vh;
+        height: 20vh;
     }
 
 
