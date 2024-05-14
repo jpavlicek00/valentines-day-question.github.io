@@ -1,0 +1,23 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.header_text {
+    text-align:center;
+    font-size: 3em;
+    color: hotpink;
+    margin: 15px 0;
+    font-family: cursive;
+}
+
+.gif_container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
