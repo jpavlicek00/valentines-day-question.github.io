@@ -20,15 +20,15 @@ body {
     align-items: center;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1920px) {
     body {
-        height: 70vh;
+        height: 90vh;
     }
     .header-text {
         font-size: 2em;
     }
     .gif_container {
-        height: 20vh;
+        height: 70vh;
     }
 
 
