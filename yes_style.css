@@ -27,6 +27,10 @@ body {
     .header-text {
         font-size: 2em;
     }
+
+    .gif_container {
+        height: 70vh;
+    }
     
 
 
