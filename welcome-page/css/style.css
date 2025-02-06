@@ -1,0 +1,80 @@
+:root {
+    --srdicko: #f20044;
+    --background: #0b1522;
+  }
+
+
+body{
+    margin:0;
+    padding:0;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--background);
+}
+
+.srdicko-kontejner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.srdicko{
+    position: relative;
+    height: 9.375rem;
+    width: 9.375rem;
+    background: var(--srdicko);
+    transform: rotate(45deg);
+    box-shadow: 0.938rem 0.313rem 9.375rem 1.25rem var(--srdicko);
+    animation: srdicko 0.8s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    &::before {
+    content: "";
+    position: absolute;
+    width: 9.375rem;
+    height: 9.375rem;
+    background: var(--srdicko);
+    top: -50%;
+    border-radius: 50%;
+    }
+
+    &::after {
+    content: "";
+    position: absolute;
+    width: 9.375rem;
+    height: 9.375rem;
+    background: var(--srdicko);
+    left: -50%;
+    border-radius: 50%;
+    } 
+}
+
+.srdicko-text {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 4rem;
+    font-family: cursive;
+   
+}
+.srdicko:hover {
+    @-webkit-keyframes srdicko {
+        0% { scale: 1.07;}
+        80% { scale: 1;}
+        100% { scale: 1.07;}
+    }
+    animation: srdicko 0.3s linear infinite;
+}
+
+
+@-webkit-keyframes srdicko {
+    0% { scale: 1.07;}
+    80% { scale: 1;}
+    100% { scale: 1.07;}
+}

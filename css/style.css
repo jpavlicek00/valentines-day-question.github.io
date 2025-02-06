@@ -9,8 +9,13 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: aliceblue
+    background-color: #0b1522;
 }
+
+.gradient-background {
+    background: rgb(255, 208, 229);
+    background: linear-gradient(180deg, rgba(255, 208, 229, 1) 0%, rgba(255, 232, 242, 1) 36%, rgba(255, 255, 255, 1) 100%);
+  }
                 
 
 h2 {
@@ -47,23 +52,23 @@ button{
 }
 
 .yes-btn:hover {
-    background-color: rgb(187, 89, 89);
+    background-color: rgb(103, 201, 108);
 
 }
 .no-btn:hover {
-    background-color: rgb(117, 206, 209);
+    background-color: rgb(206, 106, 106);
 }
 
 .yes-btn{
     margin-left: -200px;
     margin-top: 500px;
-    background-color: brown;
+    background-color: rgb(10, 166, 25);
     
 }
 .no-btn{
     margin-right: -200px;
     margin-top: 500px;
-    background-color: cadetblue;
+    background-color: rgb(177, 13, 13);
     transition: 0.5s;
 }
 
