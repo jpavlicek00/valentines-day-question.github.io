@@ -18,6 +18,6 @@ function removeButtons() {
 }
 
 function nextPage() {
-    window.location.href ="yes.html"
+    window.location.href ="envelope-page/index.html"
 }
 
