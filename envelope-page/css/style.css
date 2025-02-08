@@ -143,3 +143,76 @@ body{
         transform: scaleX(.85);
     }
 }
+
+@media screen and (max-width: 430px) {
+    body {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 10px;
+    }
+
+    .container {
+        position: relative;
+        width: 90%;
+        left:25px;
+    }
+
+    .valentines {
+        top: 100px;
+        width: 90%;
+    }
+
+    .envelope {
+        width: 300px;
+        height: 200px;
+    }
+
+    .envelope::before {
+        width: 210px;
+        height: 210px;
+        top: -100px;
+        left: 45px;
+    }
+
+    .front {
+        border-right: 150px solid #f4978e;
+        border-top: 100px solid transparent;
+        border-bottom: 90px solid transparent;
+        left: 150px;
+        top: 10px;
+    }
+
+    .front::before {
+        border-left: 300px solid #fda996;
+        border-top: 200px solid transparent;
+        left: -150px;
+        top: -110px;
+    }
+
+    .card {
+        width: 280px;
+        height: 180px;
+    }
+
+    .card .text {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .card .heart {
+        width: 35px;
+        height: 35px;
+        top:-20px;
+    }
+
+    .valentines::before {
+        width: 320px;
+        height: 30px;
+        top: 250px;
+        left: -10px;
+    }
+}
