@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +8,20 @@
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.cdnfonts.com/css/romantic" rel="stylesheet">
 </head>
+
 <body class="gradient-background">
     <div class="wrapper">
-        <h2 class="question">
-            Budes moje Valentynka? 👀
+        <h2 class="question" id="question">
+            Budes moje Valentine, pookie? 👀
         </h2>
-        <img src="cat.jpg" alt="cat" class="image">
-    </div class ="btn-group">
-        <button class="yes-btn"id="yes-btn" onclick="nextPage()">Yuh uh >:)</button>
-        <button class="no-btn" id="no-btn" onmouseover="moveButton()" onclick="moveButton()">Nuh uh >:(</button>
+        <div class="pic-container">
+            <img class="obrazek" id="obrazek" src="../img/cat.jpg" alt="cat">
+        </div>
+    </div class="btn-group">
+    <button class="yes-btn" id="yes-btn" onclick="vybratMoznost('ano')">JOO :3</button>
+    <button class="no-btn" id="no-btn" onclick="vybratMoznost('ne')">Nuh uh >:(</button>
+    </div>
     <script src="./js/script.js"></script>
-    
 </body>
+
 </html>
