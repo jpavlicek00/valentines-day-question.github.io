@@ -10,7 +10,7 @@ body{
 }
 .valentines{
     position: relative;
-    top: 140px;
+    top: 120px;
     cursor: pointer;
     animation: up 3s linear infinite;
 }
@@ -157,8 +157,8 @@ body{
 
     .container {
         position: relative;
-        width: 90%;
-        left:25px;
+        width: 80%;
+        left:20px;
     }
 
     .valentines {
@@ -230,8 +230,8 @@ body{
 
     .container {
         position: relative;
-        width: 90%;
-        left:25px;
+        width: 80%;
+        left:20px;
     }
 
     .valentines {
