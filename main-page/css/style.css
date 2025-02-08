@@ -94,23 +94,23 @@ button{
     animation: rainbow-background 2s linear infinite;
 }
 
-@media (max-width: 430px) {
+@media only screen and (max-width: 26.875rem) and (max-height: 58.25rem) {
     body {
         flex-direction: column;
         justify-content: flex-start;
-        padding-top: 20px;
+        padding-top: 1.25rem;
         height: 100vh;
     }
 
     h2 {
-        font-size: 2em;
-        margin: 10px;
+        font-size: 2.2rem;
+        margin: 0.9375rem;
         text-align: center;
     }
 
     .pic-container img {
-        width: 90%;
-        max-width: 320px;
+        width: 85%;
+        max-width: 21.875rem;
         height: auto;
     }
 
@@ -118,17 +118,17 @@ button{
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 15px;
-        margin-top: 20px;
+        gap: 1.25rem;
+        margin-top: 1.875rem;
     }
 
     button {
         position: static;
-        width: 70%;
-        max-width: 220px;
-        height: 55px;
-        font-size: 1.4rem;
-        border-radius: 10px;
+        width: 75%;
+        max-width: 15rem;
+        height: 3.75rem;
+        font-size: 1.5rem;
+        border-radius: 0.75rem;
         transition: 0.3s ease-in-out;
     }
 
@@ -142,11 +142,12 @@ button{
 
     .yes-btn:hover {
         background-color: rgb(103, 201, 108);
-        transform: scale(1.05);
+        transform: scale(1.07);
     }
 
     .no-btn:hover {
         background-color: rgb(206, 106, 106);
-        transform: scale(1.05);
+        transform: scale(1.07);
     }
 }
+
