@@ -11,6 +11,7 @@ h2 {
     font-size: 3em;
     color: hotpink;
     margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .pic-container {
@@ -51,4 +52,21 @@ button {
 
 .proceed-btn:hover {
     background-color: rgb(104, 100, 100);
+}
+
+@media screen and (max-width: 430px) {
+    h2 {
+        font-size: 2em;
+        margin-bottom: 15px;
+    }
+
+    .obrazek {
+        width: 80%;
+    }
+
+    button {
+        width: 10rem;
+        height: 6.5rem;
+        font-size: 1.2rem;
+    }
 }
