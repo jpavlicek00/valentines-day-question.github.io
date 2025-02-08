@@ -161,3 +161,71 @@ button{
         transform: scale(1.07);
     }
 }
+
+@media only screen and (max-width: 393px) and (max-height: 852px) {
+    body {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        height: 100vh;
+        padding-top: 1rem;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+        margin: 0.9375rem;
+        text-align: center;
+    }
+
+    .pic-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .pic-container img {
+        width: 85%;
+        max-width: 21.875rem;
+        height: auto;
+    }
+
+    .btn-group {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1.5rem;
+        width: 100%;
+    }
+
+    button {
+        width: 40%;
+        max-width: 10rem;
+        height: 3rem;
+        font-size: 1.2rem;
+        border-radius: 0.75rem;
+        transition: 0.3s ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .yes-btn {
+        background-color: rgb(10, 166, 25);
+    }
+
+    .no-btn {
+        background-color: rgb(177, 13, 13);
+    }
+
+    .yes-btn:hover {
+        background-color: rgb(103, 201, 108);
+        transform: scale(1.07);
+    }
+
+    .no-btn:hover {
+        background-color: rgb(206, 106, 106);
+        transform: scale(1.07);
+    }
+}
