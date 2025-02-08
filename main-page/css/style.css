@@ -94,7 +94,7 @@ button{
     animation: rainbow-background 2s linear infinite;
 }
 
-@media only screen and (max-width: 430px) {
+@media (max-width: 430px) {
     body {
         flex-direction: column;
         justify-content: flex-start;
