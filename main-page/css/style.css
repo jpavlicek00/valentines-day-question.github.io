@@ -96,16 +96,24 @@ button{
 
 @media only screen and (max-width: 26.875rem) and (max-height: 58.25rem) {
     body {
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
-        justify-content: flex-start;
-        padding-top: 1.25rem;
+        display: flex;
         height: 100vh;
+        padding-top: 1rem;
     }
 
     h2 {
         font-size: 2.2rem;
         margin: 0.9375rem;
         text-align: center;
+    }
+
+    .pic-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
 
     .pic-container img {
@@ -116,20 +124,23 @@ button{
 
     .btn-group {
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        gap: 1.25rem;
-        margin-top: 1.875rem;
+        gap: 1rem;
+        margin-top: 1.5rem;
+        width: 100%;
     }
 
     button {
-        position: static;
-        width: 75%;
-        max-width: 15rem;
-        height: 3.75rem;
-        font-size: 1.5rem;
+        width: 40%;
+        max-width: 10rem;
+        height: 3rem;
+        font-size: 1.2rem;
         border-radius: 0.75rem;
         transition: 0.3s ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .yes-btn {
@@ -150,4 +161,3 @@ button{
         transform: scale(1.07);
     }
 }
-
