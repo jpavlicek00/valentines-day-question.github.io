@@ -117,7 +117,7 @@ button{
     }
 
     .pic-container img {
-        width: 85%;
+        width: 100%;
         max-width: 21.875rem;
         height: auto;
     }
@@ -126,7 +126,7 @@ button{
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 1rem;
+        gap: 0.5rem;
         margin-top: 1.5rem;
         width: 100%;
     }
@@ -134,7 +134,8 @@ button{
     button {
         width: 40%;
         max-width: 10rem;
-        height: 3rem;
+        height: 6rem;
+        gap: 0.2rem;
         font-size: 1.2rem;
         border-radius: 0.75rem;
         transition: 0.3s ease-in-out;
