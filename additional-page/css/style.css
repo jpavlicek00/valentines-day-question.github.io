@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+    color: hotpink;
+    margin-bottom: 20px;
+}
+
+.pic-container {
+    display: flex;
+    justify-content: center;
+}
+
+.obrazek {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    color: white;
+    font-family: 'Romantic', sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 2px unset rgba(0, 0, 0, 0.979);
+    transition: background-color 0.3s ease;
+    text-align: center;
+    width: 12.5rem;
+    height: 8.25rem;
+    margin: 0.625rem;
+    position: relative;
+}
+
+.proceed-btn {
+    background-color: rgb(15, 15, 15);
+}
+
+.proceed-btn:hover {
+    background-color: rgb(104, 100, 100);
+}
